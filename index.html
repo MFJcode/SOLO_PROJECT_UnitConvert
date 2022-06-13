@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main>
+      <div class="col-1">
+        <h1>Metric/Imperial unit conversion</h1>
+
+        <input type="text" name=""  onkeyup="mult(this.value)"  id="imputValue" placeholder="Type the value" />
+
+        <!--  <h2 class="promptVL">0</h2>  -->
+      </div>
+
+      <div class="col-2">
+        <h2>Length (Meter/Feet)</h2>
+
+        <p><span class="feets">0</span> <span class="meters">0</span></p>
+
+        <h2>Volume(Liters/Gallons)</h2>
+        <p><span class="gallon">0</span> <span class="liters">0</span></p>
+
+        <h2>Mass(Kilograms/Pounds)</h2>
+        <p><span class="kilos">0</span> <span class="pounds">0</span></p>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
