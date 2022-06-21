@@ -34,3 +34,45 @@ input {
   color: black;
   background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
 }
+
+input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  line-height: 1.5em;
+  font-size: 30px;
+  color: aqua;
+}
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  line-height: 1.5em;
+  font-size: 30px;
+  color: aqua;
+}
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  line-height: 1.5em;
+  font-size: 30px;
+}
+input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  line-height: 1.5em;
+  font-size: 30px;
+}
+
+span {
+  font-size: 20px;
+}
+
+.col-1 {
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.col-2 {
+  background: #1f2937;
+  margin-top: 0;
+  color: aliceblue;
+}
+
