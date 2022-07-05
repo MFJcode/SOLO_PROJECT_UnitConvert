@@ -26,3 +26,20 @@ function mult(value) {
 
   // Pound to kilo
   pound = promptValue / 2.2046;
+
+// Display
+
+  // promptVL.textContent = promptValue
+  meterVL.textContent = promptValue + " Feet = " + meter.toFixed(3) + " meters";
+  feetsVL.textContent =
+    promptValue + " meters = " + feet.toFixed(3) + " Feet" + " |";
+  gallonVL.textContent =
+    promptValue + " liters = " + gallon.toFixed(3) + " gallons" + " |";
+  litersVL.textContent =
+    promptValue + " gallons = " + liter.toFixed(3) + " liters";
+  kilosVL.textContent =
+    promptValue + " kilos = " + kilo.toFixed(3) + " pounds" + " |";
+  poundsVL.textContent =
+    promptValue + " pounds = " + pound.toFixed(3) + " kilos";
+  return;
+}
